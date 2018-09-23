@@ -18,6 +18,8 @@ int main()
       if(((a * a) + (b * b)) == (c * c)) {
         printf("========\nSolution\n========\n");
         printf("a: %d\nb: %d\nc: %d\n", a, b, c);
+        printf("========\n");
+        printf("Product: %d", a*b*c);
       }
     }
   }
